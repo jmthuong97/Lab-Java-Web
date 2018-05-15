@@ -1,0 +1,91 @@
+PRODUCTS
+ID (Primary key, auto) int
+Name (Required) nvarchar50
+Description (Required) nvarchar100
+Url (Required, unique) nvarchar100
+Price (Required) money
+
+
+SHIPPINGS
+ID (Primary key, auto) int
+Name (Required) nvarchar50
+company () nvarchar100
+address1 (Required) nvarchar200
+address2 () nvarchar200
+zip (Required) int 
+city (Required) nvarchar30
+state (Required) nvarchar30
+phone () 
+email (Required) 
+
+
+BILLINGS
+ID (Primary key, foreign key to SHIPPING.ID) int
+name (Required) nvarchar50
+company () nvarchar100
+address1 (Required) nvarchar200
+address2 () nvarchar200
+zip (Required) int 
+city (Required) nvarchar30
+state (Required) nvarchar30
+
+
+FEEDBACKS
+ID (Primary key, auto) int
+name () nvarchar50
+email () 
+message (Required) nvarchar500
+
+
+
+
+
+
+
+
+CITIES
+
+Name (Required) nvarchar30
+
+
+PASSENGERS
+ID (Primary key) int
+Name (Required) nvarchar30
+Created Date (date) 
+
+
+USERS OF SYSTEM
+Username (Primary key) varchar20
+Password (Required) varchar20
+
+
+ROUTE
+ID (Primary key) int
+FromCityID (Required, foreign key to CITIES.ID) int
+ToCityID (Required, foreign key to CITIES.ID) int
+From city  nvarchar15
+To city  nvarchar15
+Duration (Required) float
+
+
+BUSES
+ID (Primary key) varchar10
+Route ID (Required, foreign key to ROUTE.ID) int
+Route Name (nvarchar50)
+Fare (Required) money
+
+
+BOOKINGS
+Booking ID (Primary key) varchar10
+Passenger ID (Required, foreign key to PASSENGERS.ID) int
+Passenger name (nvarchar30)
+Bus ID (Required, foreign key to BUSES.ID) varchar10
+Route (nvarchar50)
+Booking date (Required) date
+Fare (money)
+Departure Date (Required) date
+Departure time (Required) time(7)
+Arrival time (datetime)
+Booking Closed? (bit)
+
+
