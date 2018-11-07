@@ -1,0 +1,246 @@
+body{
+    background: url(../image/wine.png) no-repeat;
+    background-color: #D5F46B;
+    padding-top: 0;
+    margin-top: 0;
+    font-family: sans-serif;
+    min-width: 546px;
+}
+
+.wrap{
+    width: 70%;
+    margin: 0 auto;
+    box-shadow:  0 0 30px #535353;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.header{
+    background-color: #535353;
+    padding: 25px 15px;
+}
+
+.header h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #D5F46B;
+}
+
+.header span{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 20px;
+}
+
+.menu{
+    background-color: #303030;
+    padding: 5px 5px;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+.content{
+    padding: 20px 2%;
+    background-color: #fff;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /*overflow: auto;*/
+}
+
+.main-content{
+    display: flex;
+}
+
+.content-left{
+    order: 1;
+    padding-right: 2%;
+    width: 75%;
+    height: 100%;
+}
+
+.content-right{
+    order: 2;
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    margin-bottom: 20px;
+    background-color: activeborder;
+}
+
+.footer{
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: #fff;
+    border-top: #333333 solid 1px;
+}
+.footer a{
+    float: left;
+}
+.footer span{
+    float: right;
+}
+
+/*for img*/
+.img-border{
+    padding-bottom: 20px;
+    /*border-bottom: 1px dashed gray;*/
+}
+
+.img-border img{
+    border-radius: 15px;
+    width: 100%;
+}
+
+.content-right .container{
+    border: 1px solid #fff;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 8px #535353;
+}
+
+.container a{
+    display: block;
+    color: black;
+}
+
+.container a:hover{
+    color: black;
+}
+
+.container .fb::before{
+    content: url('../image/fbicon.jpg');
+    margin-right: 5px;
+}
+
+.container .twiter::before{
+    content: url('../image/twitericon.jpg');
+    margin-right: 5px;
+}
+
+.container .google::before{
+    content: url('../image/ggicon.jpg');
+    margin-right: 5px;
+}
+
+.container h4{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.contact p{
+    width: 170px;
+}
+
+.post{
+    margin-top: 20px;
+}
+
+.border-post{
+    clear: both;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-top: 1px dashed gray;
+    overflow: auto;
+}
+
+.details span{
+    font-weight: bold;
+}
+
+.border-post a{
+    text-decoration: none;
+    color: #303030;
+    font-weight: bold;
+}
+
+.right-post{
+    color: gray;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.right-post p{
+    margin-top: 0;
+}
+
+.left-post{
+    float: left;
+    width: 45%;
+    margin-right: 10px;
+}
+
+.left-post img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.menu-container{
+    margin-bottom: 50px;
+}
+
+.menu-container .order, .title{
+    line-height: 45px;
+}
+
+.menu-container .order{
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+
+.float-right{
+    float: right;
+    margin-right: 5px;
+}
+
+.menu-container span{
+    margin-left: 5px;
+}
+
+.menu-container .descriptment{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px dashed gray;
+}
+
+.paging{
+    margin-bottom: 15px;
+}
+
+.info{
+    float: left;
+    width: 40%;
+}
+
+.opening{
+    float: right;
+    width: 40%;
+}
+
+.map{
+    clear: both;
+}
+
+.border-map{
+    border-top: 1px dashed gray;
+}
+
+.border-map img{
+    
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.setBold{
+    font-weight: bold;
+}
