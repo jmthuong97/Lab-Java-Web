@@ -20,24 +20,24 @@ Program a web blog to make your diary online, detail functions of this website i
 
 ##Features:  
 This website contains 4 main functions  
-    * Function 1 :  Home page : ( see PIC 01 + PIC 02)
-        * Display top 3 entries sort by published date
-        * Each entry contains
-            * Entry name
-            * Description picture
-            * Entry content
-            * Published date
-    * Function 2 : Overview page ( see PIC 03) 
-        * Display all entry (title only) , sort by published date
-    * Function 3 :Entry detail ( see PIC 04)
-        * Display entry detail
-    * Function 4 :Display about me page  ( see PIC 05)
+* Function 1 :  Home page : ( see PIC 01 + PIC 02)
+  * Display top 3 entries sort by published date
+  * Each entry contains
+   * Entry name
+   * Description picture
+   * Entry content
+   * Published date
+* Function 2 : Overview page ( see PIC 03) 
+  * Display all entry (title only) , sort by published date
+* Function 3 :Entry detail ( see PIC 04)
+  * Display entry detail
+* Function 4 :Display about me page  ( see PIC 05)
 
 
 You do not need to write interface for admin control panel, you can add data manually (use SQL SERVER Management studio).
 Note: All data must be load from database, not hard code in page.
 
-Guidelines
+Guidelines  
     * Step 1 : verify requirement & scope with mentor
     * Step 2 : Create prototype
     * Step 3 : Design database base on created prototype
